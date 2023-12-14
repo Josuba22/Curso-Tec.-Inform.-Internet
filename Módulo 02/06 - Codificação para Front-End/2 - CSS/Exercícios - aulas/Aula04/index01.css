@@ -9,6 +9,11 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-image: url('background-pizza.jpg');
+    background-size: cover;
+    background-position: top;
+    width: auto;
+    height:100%;
 }
 
 .nav {
@@ -28,15 +33,19 @@ body {
 
 .titulo-site {
     text-align: center; /* centraliza o texto na página */
-    color: rgb(113, 45, 0);
+    font-family:;
+    font-size: 50px;
+    color: rgb(242, 187, 24);
     font-weight: bolder;
+    position:absolute;
+    width: 100%;
+    top: 120px;
 }
 
 .img {
     display: flex;
     width: 500;
     height: auto;
-    column-gap: 10px;
     justify-content: space-around;
 }
 
