@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: blue;
+    border: 2px dashed rgb(0, 0, 255);
+    border-radius: 10px;
+    padding: 5px 7px 8px 3px; /*basta seguir o sentido horário: top-right-botton-left*/
+}
+
+.container {
+    width: 500;
+    height: 300;
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+}
