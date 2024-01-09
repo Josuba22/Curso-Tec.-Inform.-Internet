@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="exemplo-01.css">
+        <script src="exemplo-01.js"></script>
+        <title>Exercício - Aula</title>
+    </head>
+
+    <body>
+        <h1>Isso é uma página HTML estilizada com CSS</h1>
+        
+        <hr>
+
+        <p>
+            Lorem ipsum dolor sit amet. Hic galisum internos non error blanditiis et galisum temporibus et unde quasi qui totam perferendis rem 
+            commodi voluptas! Id cupiditate magnam et distinctio dignissimos ab possimus quia qui inventore aliquid! A velit quaerat ut nihil 
+            nulla ex internos doloremque. Aut iure totam et error quasi cum impedit quos et autem consequuntur sit sint voluptatem? Sed necessitatibus 
+            voluptas non velit fugiat aut aliquam quas sed ipsum rerum? Aut rerum sint vel voluptas nobis et aliquam esse ab neque culpa et nisi ipsam.
+            Ex quaerat voluptatem quo inventore laborum sit assumenda amet ab autem nisi rem dolor architecto At odit natus. Ut enim voluptas est corrupti 
+            nisi ea beatae delectus ab incidunt repudiandae non omnis quibusdam sed dolorem rerum.
+        </p>
+
+        <p class="paragrafo">
+            "Lorem ipsum dolor sit amet. Hic galisum internos non error blanditiis et galisum temporibus et unde quasi qui totam perferendis rem 
+            commodi voluptas! Id cupiditate magnam et distinctio dignissimos ab possimus quia qui inventore aliquid! A velit quaerat ut nihil 
+            nulla ex internos doloremque. Aut iure totam et error quasi cum impedit quos et autem consequuntur sit sint voluptatem? Sed necessitatibus 
+            voluptas non velit fugiat aut aliquam quas sed ipsum rerum? Aut rerum sint vel voluptas nobis et aliquam esse ab neque culpa et nisi ipsam.
+            Ex quaerat voluptatem quo inventore laborum sit assumenda amet ab autem nisi rem dolor architecto At odit natus. Ut enim voluptas est corrupti 
+            nisi ea beatae delectus ab incidunt repudiandae non omnis quibusdam sed dolorem rerum."
+        </p>
+
+        <script>
+            //alert("Hello") // popup de alerta
+            //console.log("Josue") //imprime algo no console do navegador
+            //console.log("Minha idade")
+            //prompt("Digite seu nome") //cria um popup com entrada de dados
+            //let nome = "Josue"
+            //alert(nome)
+
+            //solicita um dado do usuário e atribui ao à variável 'nome'
+            //let nome = prompt("digite seu nome")
+            //cria um alerta com o valor recebido do usuário
+            //fazendo uso do '+' para concatenar texto com variável
+            //alert("Meu nome é " + nome)
+
+            //Meu nome é "josue", tenho "29" anos e "1,68" metros de altura.
+            let nome = prompt("Digite seu nome")
+            let idade = prompt("Digite seu idade")
+            let altura = prompt("Digite seu altura").replace(",",".")
+            let peso = prompt("Digite seu peso")
+            let imc = peso/(altura * altura)
+            alert("Meu nome é " + nome + ", tenho " + idade + " anos e " + altura + " metros de altura. IMC é: " + imc.toFixed(2))
+        </script>
+    </body>
+</html>
