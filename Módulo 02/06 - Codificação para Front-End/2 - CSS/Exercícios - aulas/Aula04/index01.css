@@ -1,0 +1,64 @@
+html {
+    background-color: rgb(224, 212, 202);
+    height: 100%; /* define que altura da página vai ser a altura do monitor */
+}
+
+body {
+    margin: 0px; /* define o espaçamento externo */
+    justify-content:space-between;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('background-pizza.jpg');
+    background-size: cover;
+    background-position: top;
+    width: auto;
+    height:100%;
+}
+
+.nav {
+    background-color: rgb(124, 1, 1); /* define a cor do fundo */
+}
+
+.nav-lista {
+    display: flex; /* deixa os elementos de um grupo pai, flexíveis */
+    list-style: none; /* tira a decoração da lista */
+    color: white; /* altera a cor do texto de todos os elementos filhos */
+    padding: 10px 0px; /* coloca espaçamentos internos cima-baixo de 10px e direita-esquerda de 0px */
+    margin: 0px; /* retira os espaçamentos externos */
+    justify-content:space-around; /* define espaçamentos entre os elementos filhos */
+    font-size: 20px; /* altera o tamanho da fonte */
+    font-weight: bold; /* altera o peso da fonte */
+}
+
+.titulo-site {
+    text-align: center; /* centraliza o texto na página */
+    font-family:;
+    font-size: 50px;
+    color: rgb(242, 187, 24);
+    font-weight: bolder;
+    position:absolute;
+    width: 100%;
+    top: 120px;
+}
+
+.img {
+    display: flex;
+    width: 500;
+    height: auto;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(234, 129, 24);
+    color: white;
+    border: rgb(234, 129, 24);
+}
+
+footer {
+    background-color: rgb(124, 1, 1);
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
