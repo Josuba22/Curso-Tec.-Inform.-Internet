@@ -1,0 +1,19 @@
+.lista_card{
+    background-color: red;
+    padding: 30px;
+}
+.card{
+    border: 4px solid;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: blue;
+}
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
