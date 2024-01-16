@@ -28,21 +28,29 @@ else {
     alert("Falso")
 }*/
 
+//outro meio:
+
+/*let resultado = 7 > 3
+alert(resultado)*/
+
+/*otimizado:
+alert(7>3)*/
+
 /*5) Crie uma variável "nome", "idade" e "altura". Peça ao usuário para informar cada uma dessas informações, por fim, monte uma única
 mensagem usando o comando alert contendo todas as informações.*/
 
-/*
-método 1:
 
-let nome = prompt("Digite seu nome")
+//método 1:
+
+/*let nome = prompt("Digite seu nome")
 let idade = prompt("Digite sua idade")
 let altura = prompt("Digite sua altura")
 
 alert(nome + " tem " + idade + " anos e " + altura + " metros de altura.");*/
 
-/*método 2:
+//método 2:
 
-let nome = prompt("Digite seu nome:");
+/*let nome = prompt("Digite seu nome:");
 let idade = prompt("Digite sua idade:");
 let altura = prompt("Digite sua altura:");
 
@@ -59,8 +67,17 @@ alert("O valor em Dólar é: " + valorDolar.toFixed(2));*/
 
 /*7) Peça ao usuário para informar um nome e depois mostre esse nome em um elemento H1 em uma página HTML.*/
 
-let nome = prompt("Digite seu nome")
-
-document.getElementById("titulo") = nome
+/*let nome = prompt("Digite seu nome")
+document.getElementById("nome").innerHTML = nome*/
 
 /*8) No HTML crie um paragráfo da cor AZUL e no JavaScript altere essa cor para VERMELHO.*/
+
+/*document.getElementById("color").style.color = 'red'*/
+
+/*9) Crie uma TAG HTML no JavaScript usando o comando createElement, e depois insira-o no HTML usando o comando appendChild.*/
+
+/*function criarElemento() {
+    let elementoTXT = document.createElement('h2')
+    elementoTXT.textContent = 'Olá mundo'
+    document.body.appendChild(elementoTXT)
+}*/
