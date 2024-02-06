@@ -8,6 +8,8 @@ async function buscar(){
     let produtos = await resposta.json()
     //alert(produtos[1].descricao) //escolhendo uma única propriedade de um objeto em uma lista para ser exibida.
     //console.log(produtos[1])
+
+//Forma braçal:
 /*
     document.body.innerHTML += produtos[0].descricao + "<br>"
     document.body.innerHTML += produtos[1].descricao + "<br>"
@@ -39,19 +41,19 @@ async function buscar(){
 */
 
 //construindo uma div no JS:
-    for (let produto in produtos){
+/*    for (let produto in produtos){
         document.body.innerHTML += `
         <div>    
             O nome do produto é ${produtos[produto].nome}
         </div>
+        <br>
         `
-        container.appendChild(document)
     }
 }
 
-buscar()
+buscar()*/
 
-//solução GPT:
+//solução do GPT:
 
 // Criando uma lista de produtos (exemplo)
 /*const produtos = [
@@ -61,7 +63,7 @@ buscar()
   ];*/
   
   // Selecionando o elemento onde queremos adicionar as <div>
-  const container = document.querySelector('#produtos-container');
+  //const container = document.querySelector('#produtos-container');
   
   // Usando o for para criar e estilizar as <div>
 /*  for (let produto in produtos) {
@@ -77,3 +79,36 @@ buscar()
     container.appendChild(divProduto);
   }
 */
+
+//Outra solução pelo GPT:
+
+    // Dados fictícios de produtos (substitua pelos seus dados reais)
+    /*const produtos = [
+        { nome: 'Produto A' },
+        { nome: 'Produto B' },
+        { nome: 'Produto C' }
+        // ... adicione mais produtos se necessário
+    ];*/
+
+    // Seleciona a div pelo ID
+    let divProduto = document.getElementById('produtoDiv');
+
+    // Itera sobre os produtos e insere o nome na div
+    for (let produto of produtos) {
+        let nomeProdutoDiv = document.createElement('div');
+        nomeProdutoDiv.textContent = produto.nome;
+        document.getElementById('nomeProduto').appendChild(nomeProdutoDiv);
+    }
+
+    // Estiliza a div (opcional)
+    divProduto.style.border = '2px solid #000'; // Borda preta
+    divProduto.style.backgroundColor = '#fff'; // Fundo branco
+    divProduto.style.marginBottom = '10px';
+    // Adicione mais estilos conforme necessário
+
+    // Adiciona uma quebra de linha após cada div
+    let br = document.createElement('br');
+    document.body.appendChild(br);
+}
+
+buscar()
