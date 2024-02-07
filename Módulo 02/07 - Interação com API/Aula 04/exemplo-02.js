@@ -1,4 +1,4 @@
-let urlProdutos = "https://raw.githubusercontent.com/RamonMartins/Curso-Tec.-Inform.-Internet/master/M%C3%B3dulo%2002/07%20-%20Intera%C3%A7%C3%A3o%20com%20API/Consumir%20API/produtos.json"
+let urlProdutos = "https://raw.githubusercontent.com/Josuba22/Curso-Tec.-Inform.-Internet/master/M%C3%B3dulo%2002/07%20-%20Intera%C3%A7%C3%A3o%20com%20API/Consumir%20API/produtos.json"
 
 async function procurar(){
     let resposta = await fetch(urlProdutos)
@@ -10,31 +10,38 @@ async function procurar(){
         //let div = document.body.innerHTML += "<h1 class='t1'>" + produtos[produto].nome + "</h1>"
         //forma sem concatenação (mais usada):
         let div = document.body.innerHTML += `
-            <div class='div'>
-                <p class='t1'> 
-                    ${produtos[produto].nome} 
-                </p>
+            <div class='card'>
                 <img 
                 src="${produtos[produto].img}" 
                 alt="Não renderizou" 
                 width="auto" 
-                height="250"
+                height="150"
+                class="img-produtos"
                 >
+                <p class='t1'> 
+                    <b>${produtos[produto].nome}</b>
+                </p>
+
                 <p>
                     ${produtos[produto].descricao}
                 </p>
-                <br>
-                <span>
-                    <b>
-                        ${produtos[produto].valorSemDesconto}
-                    </b>
-                </span>
-                <br>
-                <span>
-                    <b>
-                        ${produtos[produto].valorComDesconto}
-                    </b>
-                </span>
+                <div class="valores">
+                    <span class="valorSem">
+                        <b>
+                          R$ ${produtos[produto].valorSemDesconto}
+                        </b>
+                    </span>
+
+                    <span class="valorCom">
+                        <b>
+                           R$ ${produtos[produto].valorComDesconto}
+                        </b>
+                    </span>
+                </div>
+
+                <p>
+                    ${produtos[produto].tipoEntrega}
+                </p>
             </div>
             `
     }
