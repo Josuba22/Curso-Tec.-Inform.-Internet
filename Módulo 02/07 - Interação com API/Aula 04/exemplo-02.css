@@ -23,6 +23,7 @@ body{
 .valores{
     display: flex;
     column-gap: 10px;
+    text-align: center;
 }
 
 .valorSem{
@@ -36,9 +37,9 @@ body{
 }
 
 header{
-    background-color: blue;
-    color: azure;
-    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-align:center;
     padding: 2rem 0;
     width: 100%;
 }
@@ -48,10 +49,31 @@ header nav ul{
     justify-content: center;
 }
 
+li{
+    list-style-type: none;
+}
+
+header nav li a {
+    margin: 0 9rem;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
 .t1{
     color: #0672bf;
 }
 
 p{
     margin: 10px 0px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
