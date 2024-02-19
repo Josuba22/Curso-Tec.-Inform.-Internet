@@ -1,0 +1,56 @@
+[
+    {
+        "img": "https://a-static.mlcdn.com.br/800x560/drone-dji-mini-2-se-fly-more-combo-3-bater",
+        "nome": "Drone DJI Mini 2",
+        "descricao": "Para conversar com amiga fofoqueira no Zap",
+        "valorComDesconto": 4250.20,
+        "valorSemDesconto": 4800.00
+    },
+
+    {
+        "img": "https://a-static.mlcdn.com.br/800x560/smartphone-samsung-galaxy-a14-128gb-prata",
+        "nome": "Samsung Galaxy A14",
+        "valorComDesconto": 874.83,
+        "valorSemDesconto": 1200.00
+    },
+
+    {
+        "img": "https://a-static.mlcdn.com.br/800x560/ventilador-de-mesa-mondial-super-power-vs",
+        "nome": "Ventilador de Mesa Mondial",
+        "descricao": "Leva embora o calor com o vento.",
+        "valorComDesconto": 86.90,
+        "valorSemDesconto": 110.00
+    },
+
+    {
+        "img": "https://a-static.mlcdn.com.br/800x560/ar-condicionado-split-philco-eco-inverter-",
+        "nome": "Ar-condicionado Split Philcon",
+        "descricao": "Gela toda sua casa em um piscar de olhos.",
+        "valorComDesconto": 1200.00,
+        "valorSemDesconto": 1540.00
+    },
+
+    {
+        "img": "https://a-static.mlcdn.com.br/800x560/ar-condicionado-split-philco-eco-inverter-",
+        "nome": "Forno Microondas Consul",
+        "descricao": "Gela toda sua casa em um piscar de olhos.",
+        "valorComDesconto": 1200.00,
+        "valorSemDesconto": 1540.00
+    },
+
+    {
+        "img": "https://a-static.mlcdn.com.br/800x560/ar-condicionado-split-philco-eco-inverter-",
+        "nome": "Batedeira Mondial",
+        "descricao": "Gela toda sua casa em um piscar de olhos.",
+        "valorComDesconto": 1200.00,
+        "valorSemDesconto": 1540.00
+    },
+
+    {
+        "img": "https://www.casasbahia.com.br/liquidificador-arno-power-max-ln59-vermelho-com-1000-w-e-15-velocidades-55048753/p/55048754?utm_medium=cpc&utm_source=GP_PLA&IdSku=55048754&idLojista=10037&tipoLojista=1P&&utm_campaign=gg_pmax_core_elpo&gad_source=1&gclid=CjwKCAiAlcyuBhBnEiwAOGZ2S-icQEkhY9QQwiAgMyA6ijBHzwatTgCzbk2Zhx041I2ql_ezU87ehxoCUFMQAvD_BwE&gclsrc=aw.ds",
+        "nome": "Liquidificador Arno Power Max LN59",
+        "descricao": "Com o Liquidificador Arno Power Max LN59 você vai fazer muito mais com total praticidade e comodidade.",
+        "valorComDesconto": 179.00,
+        "valorSemDesconto": 205.19
+    }
+]
