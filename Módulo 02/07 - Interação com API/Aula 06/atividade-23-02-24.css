@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*add outras propriedades que desejar resetar*/
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0 0 0;
+}
+
+.lista_card{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.cards{
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #393939;
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    margin: 5px 0 0 0;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

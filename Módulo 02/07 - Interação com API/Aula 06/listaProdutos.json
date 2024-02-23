@@ -1,0 +1,65 @@
+[
+    {
+        "img": "https://http2.mlstatic.com/D_NQ_NP_617769-MLA47977563288_102021-O.webp",
+        "nome": "Drone DJI Mini 2",
+        "descricaoBreve": "Os Drones da DJI são caracterizados pela melhor tecnologia ao serviço de cada tipo de usuário e cenário de captura.",
+        "valorComDesconto": 4250.20,
+        "valorSemDesconto": 4800.00
+    },
+
+    {
+        "img": "https://a-static.mlcdn.com.br/1500x1500/smartphone-samsung-galaxy-a14-128gb-preto-5g-octa-core-4gb-ram-66-cam-tripla-selfie-13mp/magazineluiza/236592000/5a8e7a9cd79a6007cb00c65d3827cd51.jpg",
+        "nome": "Samsung Galaxy A14",
+        "descricaoBreve": "Para você que está a procura de um novo smartphone ou quer presentear uma pessoa querida.",
+        "valorComDesconto": 874.83,
+        "valorSemDesconto": 1200.00
+    },
+
+    {
+        "img": "https://imgs.casasbahia.com.br/55011065/1xg.jpg?imwidth=500",
+        "nome": "Ventilador de Mesa Mondial",
+        "descricaoBreve": "Leva embora o calor com o vento.",
+        "valorComDesconto": 86.90,
+        "valorSemDesconto": 110.00
+    },
+
+    {
+        "img": "https://imgs.casasbahia.com.br/1001336904/1g.jpg?imwidth=500",
+        "nome": "Ar-Condicionado Philco 12000 BTU/h",
+        "descricaoBreve": "Desfrute de um ambiente climatizado e confortável.",
+        "valorComDesconto": 2099.00,
+        "valorSemDesconto": 2299.00
+    },
+
+    {
+        "img": "https://consul.vtexassets.com/arquivos/ids/226837-1200-auto?v=637805723364570000&width=1200&height=auto&aspect=true",
+        "nome": "Micro-ondas Consul de Embutir 32L",
+        "descricaoBreve": "Abertura com apenas um toque, e traz sofisticação para sua cozinha.",
+        "valorComDesconto": 1205.55,
+        "valorSemDesconto": 2199.00
+    },
+
+    {
+        "img": "https://imgs.casasbahia.com.br/55005425/1g.jpg?imwidth=500",
+        "nome": "Batedeira Mondial Prática",
+        "descricaoBreve": "Produto com ótimo custo-benefício, permite que você prepare suas receitas sem ter que bater as massas nas mãos.",
+        "valorComDesconto": 89.90,
+        "valorSemDesconto": 110.14
+    },
+
+    {
+        "img": "https://imgs.casasbahia.com.br/55048754/1g.jpg?imwidth=500",
+        "nome": "Liquidificador Arno Power Max LN59",
+        "descricaoBreve": "Faça muito mais com total praticidade e comodidade.",
+        "valorComDesconto": 179.00,
+        "valorSemDesconto": 205.19
+    },
+
+    {
+        "img": "https://m.media-amazon.com/images/I/51EhM5AjJRL._AC_SL1000_.jpg",
+        "nome": "Bateria Eletrônica X-pro Ed2 Orange",
+        "descricaoBreve": "A bateria eletrônica X-Pro ED2 é compacta e otimizada para o estudo em casa.",
+        "valorComDesconto": 2520.00,
+        "valorSemDesconto": 2799.00
+    }
+]

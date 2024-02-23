@@ -21,7 +21,7 @@ body{
     border: 1px solid #000;
     border-radius: 15px;
     text-align: center;
-    width: 225px;
+    width: 250px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ body{
 
 .grupo-img{
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     width: 250px;
     height: 150px;
     justify-content:center;
@@ -65,7 +65,7 @@ footer{
     text-align: center;
     margin: 5px 0 0 0;
     padding: 15px;
-    position: fixed;
-    bottom: 0;
+    position: fixed; /* Posição fixa na tela (não rola com o conteúdo) */
+    bottom: 0; /* Alinhamento na parte inferior da tela */
     width: 100%;
 }
