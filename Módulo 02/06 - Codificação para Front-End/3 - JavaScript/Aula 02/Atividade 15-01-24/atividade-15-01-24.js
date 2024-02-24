@@ -61,6 +61,7 @@ alert("O valor em Dólar é: " + valorDolar.toFixed(2));*/
 
 let nome = prompt("Digite seu nome")
 
-document.getElementById("titulo") = nome
+document.getElementById("nome") = nome;
+
 
 /*8) No HTML crie um paragráfo da cor AZUL e no JavaScript altere essa cor para VERMELHO.*/
