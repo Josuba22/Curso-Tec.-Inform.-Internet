@@ -6,22 +6,44 @@ async function busca(){
 
     for(let produto of produtos){
         listaDiv.innerHTML +=`
-            <div class="cards">
-                <a href="#">
-                    <img 
-                        src="${produto.img}"
-                        width="200px"
-                        height="auto"
-                    >
-                </a>
+            <div class="cards" data-id="${produto.id}">
+                <div class="cards-img">
+                        <img 
+                            src="${produto.img}"
+                            width="160"
+                            height="auto"
+                        >
+                </div>
 
-                <h3> ${produto.nome} </h3>
-                <p class="produto-descricao"> ${produto.descricaoBreve} </p>
-                <span class="produto-com-desconto"> ${produto.valorComDesconto} </span>
-                <span class="produto-sem-desconto"> ${produto.valorSemDesconto} </span>
+                <div class="cards-info">
+                    <div class="nome">
+                        <h3> ${produto.nome} </h3>
+                    </div>
+
+                    <div class="descricao">
+                        <p class="produto-descricao"> ${produto.descricaoBreve} </p>
+                    </div>
+
+                    <div class="cards-info-valores">
+                        <span class="produto-sem-desconto"> R$ ${(produto.valorSemDesconto).toFixed(2).replace(".",",")} </span>
+                        <span class="produto-com-desconto"> R$ ${(produto.valorComDesconto).toFixed(2).replace(".",",")} </span>
+                    </div>
+                </div>
             </div>
         `
+    }
+
+    let elementoCards = document.querySelectorAll(".cards")
+    for(let card of elementoCards){
+        card.addEventListener("click", clicou)
     }
 }
 
 busca()
+
+// debugando (testando) se o código está funcionando
+function clicou(){
+    let produtoId = this.getAttribute("data-id")
+    //alert("card " + produtoId)
+    window.location.href = "detalhes.html?id=" + produtoId
+}
