@@ -6,11 +6,11 @@ async function busca(){
 
     for(let produto of produtos){
         listaDiv.innerHTML +=`
-            <div class="cards">
+            <div class="cards" data-id="${produto.id}">
                 <div class="cards-img">
                         <img 
                             src="${produto.img}"
-                            width="160"
+                            width="40%"
                             height="auto"
                         >
                 </div>
@@ -32,6 +32,23 @@ async function busca(){
             </div>
         `
     }
+
+    let elementosCards = document.querySelectorAll(".cards")
+    //se for usar o IN a estrutura é desse modo:
+    /*for(let card in elementosCards){
+        elementosCards[card].addEventListener()
+    }*/
+    for(let card of elementosCards){
+        card.addEventListener("click", cliqueCard)
+    }
 }
 
 busca()
+
+//a função é colocada fora da função busca() pq ñ será gerada uma promessa;
+function cliqueCard(){
+    let elementoId = this.getAttribute("data-id")
+    //alert(elementoId)
+    //para "debugar" o cód basta adicionar uma alert na frente do cód ==> alert(window.location.href);
+    window.location.href = "detalhes.html?prod-id=" + elementoId
+}

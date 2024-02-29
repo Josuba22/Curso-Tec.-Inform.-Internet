@@ -16,6 +16,7 @@ async function verDetalhes(){
 
     document.body.innerHTML = `
         <h3> ${produtos[inProduto].nome} </h3>
+        <p> ${produtos[inProduto].descricaoBreve} </p>
     `
 }
 

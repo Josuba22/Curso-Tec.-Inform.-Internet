@@ -41,6 +41,7 @@ async function busca(){
 
 busca()
 
+//a função é colocada fora da função busca() pq ñ será gerada uma promessa;
 function cliqueCard(){
     let elementoId = this.getAttribute("data-id")
     //alert("card " + elementoId)
