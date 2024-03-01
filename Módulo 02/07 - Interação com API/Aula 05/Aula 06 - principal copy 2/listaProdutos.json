@@ -1,65 +1,55 @@
 [
     {
-        "img": "https://http2.mlstatic.com/D_NQ_NP_617769-MLA47977563288_102021-O.webp",
-        "nome": "Drone DJI Mini 2",
-        "descricaoBreve": "Os Drones da DJI são caracterizados pela melhor tecnologia ao serviço de cada tipo de usuário e cenário de captura.",
-        "valorComDesconto": 4250.20,
-        "valorSemDesconto": 4800.00
+        "id": 1,
+        "img": "https://i.pinimg.com/564x/ae/74/de/ae74def25d73046126f072ee33b9467e.jpg",
+        "nome": "La Casa de Papel (1ª temporada)",
+        "sinopse": "",
+        "duracao": 607,
+        "anoLancamento": 2017
     },
 
     {
-        "img": "https://a-static.mlcdn.com.br/1500x1500/smartphone-samsung-galaxy-a14-128gb-preto-5g-octa-core-4gb-ram-66-cam-tripla-selfie-13mp/magazineluiza/236592000/5a8e7a9cd79a6007cb00c65d3827cd51.jpg",
-        "nome": "Samsung Galaxy A14",
-        "descricaoBreve": "Para você que está a procura de um novo smartphone ou quer presentear uma pessoa querida.",
-        "valorComDesconto": 874.83,
-        "valorSemDesconto": 1200.00
+        "id": 2,
+        "img": "https://i.pinimg.com/564x/8d/b1/e8/8db1e8ec3aa1af5a5211cf4037f947d2.jpg",
+        "nome": "Vingadores Ultimato",
+        "sinopse": "",
+        "duracao": 182,
+        "anoLancamento": 2019
     },
 
     {
-        "img": "https://imgs.casasbahia.com.br/55011065/1xg.jpg?imwidth=500",
-        "nome": "Ventilador de Mesa Mondial",
-        "descricaoBreve": "Leva embora o calor com o vento.",
-        "valorComDesconto": 86.90,
-        "valorSemDesconto": 110.00
+        "id": 3,
+        "img": "https://i.pinimg.com/564x/96/42/33/9642338bc05e332a644973975cb2b714.jpg",
+        "nome": "The Marvels",
+        "sinopse": "",
+        "duracao": 105,
+        "anoLancamento": 2023
     },
 
     {
-        "img": "https://imgs.casasbahia.com.br/1001336904/1g.jpg?imwidth=500",
-        "nome": "Ar-Condicionado Philco 12000 BTU/h",
-        "descricaoBreve": "Desfrute de um ambiente climatizado e confortável.",
-        "valorComDesconto": 2099.00,
-        "valorSemDesconto": 2299.00
+        "id": 4,
+        "img": "https://i.pinimg.com/564x/42/da/ad/42daad0aaf29a218c11ecb8568064430.jpg",
+        "nome": "Avatar: O caminho da água",
+        "sinopse": "",
+        "duracao": 192,
+        "anoLancamento": 2022
     },
 
     {
-        "img": "https://consul.vtexassets.com/arquivos/ids/226837-1200-auto?v=637805723364570000&width=1200&height=auto&aspect=true",
-        "nome": "Micro-ondas Consul de Embutir 32L",
-        "descricaoBreve": "Abertura com apenas um toque, e traz sofisticação para sua cozinha.",
-        "valorComDesconto": 1205.55,
-        "valorSemDesconto": 2199.00
+        "id": 5,
+        "img": "https://i.pinimg.com/564x/78/fd/f9/78fdf9897caaef47b5b01cc70364e781.jpg",
+        "nome": "Alvin e os esquilos 2",
+        "sinopse": "",
+        "duracao": 88,
+        "anoLancamento": 2009
     },
 
     {
-        "img": "https://imgs.casasbahia.com.br/55005425/1g.jpg?imwidth=500",
-        "nome": "Batedeira Mondial Prática",
-        "descricaoBreve": "Produto com ótimo custo-benefício, permite que você prepare suas receitas sem ter que bater as massas nas mãos.",
-        "valorComDesconto": 89.90,
-        "valorSemDesconto": 110.14
-    },
-
-    {
-        "img": "https://imgs.casasbahia.com.br/55048754/1g.jpg?imwidth=500",
-        "nome": "Liquidificador Arno Power Max LN59",
-        "descricaoBreve": "Faça muito mais com total praticidade e comodidade.",
-        "valorComDesconto": 179.00,
-        "valorSemDesconto": 205.19
-    },
-
-    {
-        "img": "https://m.media-amazon.com/images/I/51EhM5AjJRL._AC_SL1000_.jpg",
-        "nome": "Bateria Eletrônica X-pro Ed2 Orange",
-        "descricaoBreve": "A bateria eletrônica X-Pro ED2 é compacta e otimizada para o estudo em casa.",
-        "valorComDesconto": 2520.00,
-        "valorSemDesconto": 2799.00
+        "id": 6,
+        "img": "https://i.pinimg.com/564x/44/f3/a9/44f3a91fd960949128d369ffa6b7d453.jpg",
+        "nome": "Harry Potter e as relíquias da morte: parte 1",
+        "sinopse": "A Parte 1 começa quando Harry, Rony e Hermione iniciam uma perigosa missão para encontrar e destruir o segredo da imortalidade e destruição…",
+        "duracao": 145,
+        "anoLancamento": 2010
     }
 ]
