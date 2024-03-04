@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "img": "https://m.media-amazon.com/images/I/71ukZsRFZuL._SL1500_.jpg",
+        "nome": "A Arte da Guerra: Os treze capítulos originais",
+        "descricao": "O maior tratado de guerra de todos os tempos em sua versão completa em português. A Arte da Guerra é sem dúvida a Bíblia da estratégia, sendo hoje utilizada amplamente no mundo dos negócios, conquistando pessoas e mercados. Não nos surpreende vê-la citada em filmes como Wall Street (Oliver Stone, 1990) e constantemente aplicada para solucionar os mais recentes conflitos do nosso dia-a-dia. Conheça um dos maiores ícones da estratégia dos últimos 2500 anos. Nesta versão de luxo de 160 páginas, o livro está formato 15,3X23, papel de alta qualidade. No final da edição o leitor tem 3 espaços com 23 páginas para fazer suas anotações sobre aplicabilidades dos ensinamentos de Sun Tzu na vida pessoal, profissional, e nos estudos. Sunzi disse: “A guerra se baseia no engano, se faz pelo ganho e se adapta pela divisão e combinação.” “Tal como a água procura as profundezas e evita os cumes, um exército ataca o vazio e evita o cheio. A água se move de acordo com a terra; um exército se movimenta de acordo com o inimigo.” “Quando o general é fraco, sem autoridade junto aos soldados, suas regras são confusas e sua moral é baixa, o exército é confuso.”",
+        "autor": "Sun Tzu",
+        "editora": "Jardim dos Livros",
+        "dataPublicacao": "17 abril 2008",
+        "numeroPaginas": "160 páginas"
+    },
+
+    {
+        "id": 2,
+        "img": "https://m.media-amazon.com/images/I/81HVeoWbmUL._SL1500_.jpg",
+        "nome": "O milagre da manhã para empreendedores",
+        "descricao": "Hal Elrod está de volta, aplicando seu método milagroso para ajudar a desenvolver negócios pessoais, fortalecer lideranças e criar uma vida comercial de sucesso. O best-seller O milagre da manhã vem ajudando a redefinir as manhãs e as vidas de milhões de leitores desde sua publicação. Desde então, carreiras foram impulsionadas, objetivos alcançados e sonhos foram realizados, tudo através do poder dos seis Salvadores de Vida criados pelo autor. Essas seis práticas diárias impulsionarão seus esforços para criar e manter uma mudança positiva na sua vida. Agora, O milagre da manhã para empreendedores traz para você esses princípios sob uma luz totalmente nova, pronto para ajudar líderes e empreendedores em todo mundo a levar seus sucessos ao próximo nível e mudar suas vidas. Cameron Herold, autor best-seller e expert amplamente respeitado na área de mindset empreendedor, traz conhecimentos e insights para serem aplicados junto do poderoso método do Milagre da Manhã. Os princípios e habilidades que você encontrará neste livro ajudarão a canalizar sua paixão, se tornando o um líder influente e inspirador.",
+        "autor": "Hal Elrod",
+        "editora": "Best Seller",
+        "dataPublicacao": "15 fevereiro 2021",
+        "numeroPaginas": "273 páginas"
+    },
+
+    {
+        "id": 3,
+        "img": "https://m.media-amazon.com/images/I/81eT2pjx4jL._SL1500_.jpg",
+        "nome": "Hábitos atômicos: um método fácil e comprovado de criar bons hábitos e se livrar dos maus",
+        "descricao": "Pequenas mudanças, resultados impressionantes. Não importa quais sejam seus objetivos, Hábitos Atômicos oferece um método eficaz para você se aprimorar ― todos os dias. James Clear, um dos mais expoentes especialistas na criação de hábitos, revela as estratégicas práticas que o ensinarão, exatamente, como criar bons hábitos, abandonar os maus e fazer pequenas mudanças de comportamento que levam a resultados impressionantes. Se enfrenta dificuldades para mudar seus hábitos, o problema não é você, é o sistema escolhido. Os maus hábitos se repetem sem parar porque você está usando o sistema errado, e não porque não queira mudar.Assim, suas limitações não são a complexidade de seu objetivo, mas a inadequação de seus sistemas. Neste livro, você aprenderá um método comprovado capaz de levá-lo a novos patamares. Clear é conhecido por sua habilidade em transformar tópicos complexos em comportamentos simples que podem ser facilmente aplicados à vida cotidiana e profissional. Seu método, desenvolvido a partir de conceitos comprovados da biologia, psicologia e neurociência, é um guia descomplicado para tornar os bons hábitos inevitáveis e os maus, impossíveis. Ao longo desta jornada, os leitores serão inspirados e entretidos por histórias de medalhistas de ouro em Olimpíadas, artistas premiados, líderes de negócios, médicos que salvam vidas e astros da comédia que usaram a ciência dos pequenos hábitos para dominar seu ofício e se lançar ao topo de suas áreas de atuação. Hábitos Atômicos remodela sua forma de pensar em avanço e sucesso e traz as ferramentas e estratégias de que precisa para transformar seus hábitos ― seja você técnico de um time almejando a conquista de um título, uma organização com pretensões de reinventar seu setor ou simplesmente um indivíduo que deseja parar de fumar, perder peso, reduzir o estresse ou atingir qualquer outra meta. Descubra o Segredo dos Resultados Permanentes Repleto de estratégias testadas e aprovadas de autoaprimoramento, Hábitos Atômicos ensinará você a construir hábitos que funcionem para - e não contra - você.",
+        "autor": "James Clear",
+        "editora": "Alta Life",
+        "dataPublicacao": "8 agosto 2019",
+        "numeroPaginas": "320 páginas"
+    },
+
+    {
+        "id": 4,
+        "img": "https://m.media-amazon.com/images/I/61AaXcdHXKS._SL1000_.jpg",
+        "nome": "Uma breve história do tempo",
+        "descricao": "Uma das mentes mais geniais do mundo moderno, Stephen Hawking guia o leitor na busca por respostas a algumas das maiores dúvidas da humanidade: Qual a origem do universo? Ele é infinito? E o tempo? Sempre existiu, ou houve um começo e haverá um fim? Existem outras dimensões além das três espaciais? E o que vai acontecer quando tudo terminar?Com ilustrações criativas e texto lúcido e bem-humorado, Hawking desvenda desde os mistérios da física de partículas até a dinâmica que movimenta centenas de milhões de galáxias por todo o universo. Para o iniciado, Uma breve história do tempo é uma bela representação de conceitos complexos; para o leigo, é um vislumbre dos segredos mais profundos da criação.",
+        "autor": "Stephen Hawking",
+        "editora": "Intrínseca",
+        "dataPublicacao": "13 janeiro 2015",
+        "numeroPaginas": "256 páginas"
+    },
+
+    {
+        "id": 5,
+        "img": "https://m.media-amazon.com/images/I/81ehvI03NYS._SL1500_.jpg",
+        "nome": "A psicologia financeira: lições atemporais sobre fortuna, ganância e felicidade",
+        "descricao": "A maneira como lidamos com o dinheiro ― finanças pessoais, investimentos, decisões de negócios ― costuma ser explicada como um campo puramente matemático, no qual dados e fórmulas nos dizem o que fazer. A verdade, porém, é que grandes decisões monetárias não são tomadas diante de uma planilha, mas durante jantares com a família e reuniões com os colegas de trabalho. Além disso, cada uma delas é um reflexo da história pessoal e das dificuldades enfrentadas pelo indivíduo que as tomou. Abordando a gestão financeira de maneira inédita, Morgan Housel apresenta casos de sucessos e fracassos de investidores que demonstram a importância do fator psicológico no gerenciamento das finanças, oferecendo aprendizados para administrar e fazer o dinheiro render em busca do grande objetivo de todos nós: ser feliz.",
+        "autor": "Morgan Housel",
+        "editora": "HarperCollins",
+        "dataPublicacao": "15 março 2021",
+        "numeroPaginas": "304 páginas"
+    },
+
+    {
+        "id": 6,
+        "img": "https://m.media-amazon.com/images/I/61A48a1ZINL._SL1360_.jpg",
+        "nome": "Atitude mental positiva",
+        "descricao": "Um clássico de Napoleon Hill que tem mudado milhões de vidas! Sua mente é um talismã secreto. De um lado é dominado pelas letras AMP (Atitude Mental Positiva) e, por outro, pelas letras AMN (Atitude Mental Negativa). Uma atitude positiva irá, naturalmente, atrair sucesso e prosperidade. A atitude negativa vai roubá-lo de tudo que torna a vida digna de ser vivida. Seu sucesso, saúde, felicidade e riqueza dependem de qual lado você irá usar. Quando o pioneiro motivacional Napoleon Hill e o CEO milionário W. Clement Stone se uniram para formar uma das parcerias mais notáveis de todos os tempos, o resultado foi Atitude Mental Positiva, o fenômeno editorial que sugeriu ao mundo que, com a atitude certa, qualquer um pode realizar seus sonhos.",
+        "autor": "Napoleon Hill ",
+        "editora": "Citadel",
+        "dataPublicacao": "15 maio 2015",
+        "numeroPaginas": "312 páginas"
+    }
+]

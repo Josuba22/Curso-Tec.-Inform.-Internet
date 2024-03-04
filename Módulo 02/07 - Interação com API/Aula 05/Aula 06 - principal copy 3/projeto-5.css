@@ -6,7 +6,7 @@
 
 body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 15px 0 0 0;
 }
 
@@ -68,7 +68,21 @@ body{
     height: 80px;
 }
 
-.cards-info-valores{
+.livroDescricao{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa a altura */
+    max-height: 60px; /* Altura máxima inicial da descrição */
+    transition: max-height 0.3s ease; /* Efeito de transição suave */
+}
+
+.expandir {
+    cursor: pointer;
+    color: blue;
+}
+
+.cards-informacoes{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,30 +91,29 @@ body{
     height: 50px;
 }
 
-.produto-descricao{
-    font-size: 16px;
-    margin-top: 10px;
-    text-align: justify;
-}
-
-.produto-sem-desconto{
-    text-decoration: line-through;
-    color: red;
+.autor{
     font-size: 15px;
 }
 
-.produto-com-desconto{
-    font-weight: bold;
-    font-size: 20px;
+.editora{
+    font-size: 15px;
+}
+
+.numPaginas{
+    font-size: 15px;
+}
+
+.dataPubli{
+    font-size: 15px;
 }
 
 footer{
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    margin: 5px 0 0 0;
+    position: fixed; /* Fixa o footer na parte inferior da tela */
+    bottom: 0; /* Alinha o footer ao final da página */
+    left: 0;
+    right: 0;
+    background-color: #000;
+    color: #ffffff;
     padding: 10px;
-    position: absolute;
-    bottom: -5%;
-    width: 100%;
+    text-align: center;
 }
