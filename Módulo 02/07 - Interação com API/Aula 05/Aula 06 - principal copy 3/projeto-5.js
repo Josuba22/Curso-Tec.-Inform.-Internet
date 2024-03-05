@@ -25,7 +25,7 @@ async function busca(){
                         <p class="expandir" onclick="expandirDescricao(this)"> Leia mais </p>
                     </div>
 
-                    <div class="cards-infomacoes">
+                    <div class="cards-informacoes">
                         <span class="autor"> ${livro.autor} </span>
                         <span class="editora"> ${livro.editora} </span>
                         <span class="numPaginas"> ${livro.numeroPaginas} </span>
@@ -33,16 +33,25 @@ async function busca(){
                     </div>
                 </div>
             </div>
-
-            <script>
-                function expandirDescricao(elemento) {
-                    const descricao = elemento.previousElementSibling; // Pega o elemento .livro-descricao
-                    livroDescricao.style.maxHeight = 'none'; // Expande a descrição completamente
-                    elemento.style.display = 'none'; // Esconde o link "Leia mais"
-                }
-            </script
         `
     }
 }
 
 busca()
+
+function expandirDescricao(elemento) {
+    const descricao = elemento.previousElementSibling; // Pega o elemento .livro-descricao
+    descricao.style.maxHeight = 'none'; // Expande a descrição completamente
+    elemento.style.display = 'none'; // Esconde o link "Leia mais"
+}
+
+/*function expandirDescricao(elemento) {
+    const descricao = elemento.previousElementSibling.querySelector('.livroDescricao'); // Pega o elemento .livroDescricao
+    if (descricao.style.maxHeight === 'none') {
+        descricao.style.maxHeight = null; // Recolhe a descrição
+        elemento.textContent = 'Leia mais'; // Altera o texto do link
+    } else {
+        descricao.style.maxHeight = 'none'; // Expande a descrição completamente
+        elemento.textContent = 'Recolher'; // Altera o texto do link
+    }
+}*/

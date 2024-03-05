@@ -117,6 +117,15 @@ body{
     font-size: 20px;
 }
 
+/* estilização do arquivo detalhes.html */
+
+.grupoValores{
+    width: fit-content;
+    column-gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
 footer{
     float: center;
     display: block;
