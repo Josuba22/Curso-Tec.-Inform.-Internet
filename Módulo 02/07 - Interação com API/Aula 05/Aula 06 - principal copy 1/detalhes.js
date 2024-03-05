@@ -15,7 +15,7 @@ async function procurar(){
 
     document.title = produtos[indiceProd].nome
 
-    document.body.innerHTML = `
+    document.body.innerHTML += `
         <h1> ${produtos[indiceProd].nome} </h1>
         <img src="${produtos[indiceProd].img}" height="auto" width="300" style="border: 1px solid #000; border-radius: 10px;">
         <p> ${produtos[indiceProd].descricaoBreve} </p>
