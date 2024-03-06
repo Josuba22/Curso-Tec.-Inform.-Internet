@@ -42,8 +42,8 @@ body{
 .cards{
     border: 1px solid #000;
     border-radius: 15px;
-    width: 250px;
-    height: 425px;
+    width: 300px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,8 +58,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 275px;
 }
 
 .cards-info{
@@ -67,8 +67,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 180px;
+    width: 300px;
+    height: 200px;
 }
 
 .nome{
@@ -76,18 +76,17 @@ body{
     text-align: center;
     align-items: flex-start;
     justify-content: center;
-    width: 250px;
-    height: 30px;
-    margin-bottom: 15px;
+    width: 300px;
+    height: 40px;
 }
 
 .descricao{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    width: 250px;
+    width: 300px;
     height: 80px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .cards-info-valores{
@@ -97,11 +96,12 @@ body{
     justify-content: center;
     width: 250px;
     height: 50px;
+    margin-top: 20px;
 }
 
 .produto-descricao{
     font-size: 16px;
-    /*margin-top: 10px;*/
+    margin-top: 15px;
     text-align: justify;
 }
 
@@ -117,15 +117,6 @@ body{
     font-size: 20px;
 }
 
-/* estilização do arquivo detalhes.html */
-
-.grupoValores{
-    width: fit-content;
-    column-gap: 15px;
-    display: flex;
-    flex-direction: row;
-}
-
 footer{
     float: center;
     display: block;
@@ -137,4 +128,48 @@ footer{
     /*position: absolute;*/
     bottom: -5%;
     width: 100%;
+}
+
+/* estilização do arquivo detalhes.html */
+.btn-voltar{
+    border: none;
+    border-radius: 8px;
+    background: #173cd0;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    transition: 0.5 ease;
+}
+
+.btn-voltar:hover{
+    background: #5674e8;
+    transition: 0.5 ease;
+}
+
+.cards-detalhes{
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    background:#dde3e8;
+}
+
+h1{
+    text-align: center;
+}
+
+.grupoValores{
+    width: fit-content;
+    column-gap: 15px;
+    display: flex;
+    flex-direction: row;
 }

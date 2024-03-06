@@ -16,12 +16,14 @@ async function procurar(){
     document.title = produtos[indiceProd].nome
 
     document.body.innerHTML += `
-        <h1> ${produtos[indiceProd].nome} </h1>
-        <img src="${produtos[indiceProd].img}" height="auto" width="300" style="border: 1px solid #000; border-radius: 10px;">
-        <p> ${produtos[indiceProd].descricaoBreve} </p>
-        <div class="grupoValores">
-            <span class="produto-com-desconto"> R$ ${(produtos[indiceProd].valorComDesconto).toFixed(2).replace(".", ",")} </span>
-            <span class="produto-sem-desconto"> R$ ${(produtos[indiceProd].valorSemDesconto).toFixed(2).replace(".", ",")} </span>
+        <div class="cards-detalhes">
+            <h1> ${produtos[indiceProd].nome} </h1>
+            <img src="${produtos[indiceProd].img}" height="250" width="auto" style="border: 1px solid #c1c1c1; border-radius: 10px;">
+            <p class="produto-descricao"> ${produtos[indiceProd].descricaoBreve} </p>
+            <div class="grupoValores">
+                <span class="produto-com-desconto"> R$ ${(produtos[indiceProd].valorComDesconto).toFixed(2).replace(".", ",")} </span>
+                <span class="produto-sem-desconto"> R$ ${(produtos[indiceProd].valorSemDesconto).toFixed(2).replace(".", ",")} </span>
+            </div>
         </div>
     `
 }

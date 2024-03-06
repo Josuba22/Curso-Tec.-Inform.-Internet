@@ -46,28 +46,28 @@
 
     {
         "id": 6,
-        "img": "https://imgs.casasbahia.com.br/55005425/1g.jpg?imwidth=500",
-        "nome": "Batedeira Mondial Prática",
-        "descricaoBreve": "Produto com ótimo custo-benefício, permite que você prepare suas receitas sem ter que bater as massas nas mãos.",
-        "valorComDesconto": 89.90,
-        "valorSemDesconto": 110.14
+        "img": "https://acdn.mitiendanube.com/stores/003/096/465/products/a8781a3da5e4b4f7fb4eff6450e2356aac1-458fffe334774dd1df16926381932273-1024-1024.webp",
+        "nome": "Lapiseira Fofa Drink Sanrio",
+        "descricaoBreve": "Olha só que Fofura que são as Lapiseiras Drink. Contem um Pingente Super Fofo, com o rostinho dos personagens. São todos personagens mais fofinhos da Turminha da Sanrio pra você escolher.",
+        "valorComDesconto": 13.75,
+        "valorSemDesconto": 15.49
     },
 
     {
         "id": 7,
-        "img": "https://imgs.casasbahia.com.br/55048754/1g.jpg?imwidth=500",
-        "nome": "Liquidificador Arno Power Max LN59",
-        "descricaoBreve": "Faça muito mais com total praticidade e comodidade.",
-        "valorComDesconto": 179.00,
-        "valorSemDesconto": 205.19
+        "img": "https://m.media-amazon.com/images/I/51-hfTtoX3L._AC_SL1080_.jpg",
+        "nome": "Apontador com Depósito 1 Furo de Coelho - Tilibra",
+        "descricaoBreve": "Produzido com material durável, lâmina em aço carbono resistente e depósito com boa capacidade. O produto é ideal para o dia a dia escolar, auxiliando o aluno nas atividades de escrever, desenhar e colorir.",
+        "valorComDesconto": 15.90,
+        "valorSemDesconto": 17.30
     },
 
     {
         "id": 8,
-        "img": "https://m.media-amazon.com/images/I/51EhM5AjJRL._AC_SL1000_.jpg",
-        "nome": "Bateria Eletrônica X-pro Ed2 Orange",
-        "descricaoBreve": "A bateria eletrônica X-Pro ED2 é compacta e otimizada para o estudo em casa.",
-        "valorComDesconto": 2520.00,
-        "valorSemDesconto": 2799.00
+        "img": "https://m.media-amazon.com/images/I/616faHZGdXL._AC_SX522_.jpg",
+        "nome": "Kit Escolar CIS SPIRO Roxo (1 Lápis de cor 12 cores, 1 Caneta, 1 Lapiseira e 1 Borracha)",
+        "descricaoBreve": "Ideal para você que gosta de praticidade, as pontas podem ser trocadas facilitando muito na hora do uso. Indispensável no material escolar, ou no trabalho.",
+        "valorComDesconto": 12.99,
+        "valorSemDesconto": 15.49
     }
 ]
