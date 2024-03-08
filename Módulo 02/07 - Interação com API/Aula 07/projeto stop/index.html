@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/Aula 07/caminho/para/normalize.css">
+
+        <title>Lead Page | Captação de Clientes</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Receba Mais Informações Sobre Nossos Produtos!</h1>
+            <p>Preencha o formulário abaixo:</p>
+            <form id="leadForm">
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="Nome" id="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="E-mail" id="email" required>
+                <label for="telefone">Fone/WhatsApp:</label>
+                <input type="tel" placeholder="Telefone" id="telefone" required>
+                
+                <select id="produto servico">
+                    <option value="" disabled selected>Selecione o Produto/Serviço de Interesse</option>
+                    <option value="Produto A">Produto A</option>
+                    <option value="Produto B">Produto B</option>
+                    <option value="Serviço X">Serviço X</option>
+                    <option value="Serviço Y">Serviço Y</option>
+                </select>
+                <br>
+                <input type="text" placeholder="Como Nos Encontrou? (opcional)" id="rede social">
+                <button type="submit">Enviar</button>
+            </form>
+            <p class="success-message" id="successMessage"></p>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
