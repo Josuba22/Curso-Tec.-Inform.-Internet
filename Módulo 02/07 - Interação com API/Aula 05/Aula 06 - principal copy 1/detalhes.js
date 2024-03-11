@@ -15,10 +15,14 @@ async function procurar(){
 
     document.title = produtos[indiceProd].nome
 
-    document.body.innerHTML += `
+    document.getElementById("detalhes").innerHTML += `
         <div class="cards-detalhes">
             <h1> ${produtos[indiceProd].nome} </h1>
-            <img src="${produtos[indiceProd].img}" height="250" width="auto" style="border: 1px solid #c1c1c1; border-radius: 10px;">
+            <img src="${produtos[indiceProd].img[0]}" id="img-frame" height="250" width="auto" style="border: 1px solid #c1c1c1; border-radius: 10px;">
+            <div class="mini-img" id="mini-img">
+                
+            </div>
+
             <p class="produto-descricao"> ${produtos[indiceProd].descricaoBreve} </p>
             <div class="grupoValores">
                 <span class="produto-com-desconto"> R$ ${(produtos[indiceProd].valorComDesconto).toFixed(2).replace(".", ",")} </span>
@@ -26,6 +30,21 @@ async function procurar(){
             </div>
         </div>
     `
+
+    let divMini = document.getElementById("mini-img")
+    for(let i of produtos[indiceProd].img){
+        divMini.innerHTML +=`<img src="${i}" class="miniatura" onclick="trocaImagem('${i}')" width="80" height="80" style="border: 1px solid #c1c1c1; border-radius: 10px;"/>`
+    }
+
+    let miniCards = document.querySelectorAll(".miniatura")
+    for (let card of miniCards){
+        card.addEventListener("mouseover", alteraImg);
+    }
+}
+
+function alteraImg(){
+    let frame = document.getElementById("img-frame");
+    frame.src = this.getAttribute("src");
 }
 
 procurar()

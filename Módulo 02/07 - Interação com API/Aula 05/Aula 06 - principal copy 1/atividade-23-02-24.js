@@ -9,8 +9,8 @@ async function busca(){
             <div class="cards" data-id="${produto.id}">
                 <div class="cards-img">
                         <img 
-                            src="${produto.img}"
-                            width="40%"
+                            src="${produto.img[0]}"
+                            width="30%"
                             height="auto"
                         >
                 </div>
