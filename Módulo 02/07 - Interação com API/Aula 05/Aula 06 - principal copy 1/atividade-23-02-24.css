@@ -8,7 +8,8 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0 0 0 0;
-    background:local;
+    /*background:local;*/
+    background-image: url("https://th.bing.com/th/id/OIG1.pQ.x.XxCrBt6e.UeYAW4?pid=ImgGn");
 }
 
 .cabecalho{
@@ -20,8 +21,9 @@ body{
 }
 
 .logo img{
-    width: 100%;
+    width: 110%;
     height: 8vh;
+    background: #fff;
 }
 
 .navbar {
@@ -53,6 +55,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 10px;
+    padding: auto 75px;
     column-gap: 15px;
     row-gap: 15px;
 }
@@ -69,6 +72,7 @@ body{
     padding: 5px;
     box-shadow: 5px 5px 5px #393939;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .cards-img{
@@ -154,10 +158,10 @@ footer{
     border-radius: 8px;
     background: #173cd0;
     color: #fff;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 15px;
-    width: 50px;
-    height: 20px;
+    width: 70px;
+    height: 25px;
     cursor: pointer;
     transition: 0.5 ease;
 }
@@ -173,12 +177,12 @@ footer{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    width: 50vh;
-    height: 50vh;
+    width: 60vh;
+    height: 60vh;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    background:#dde3e8;
+    background:#ffffff;
 }
 
 h1{
@@ -197,4 +201,10 @@ h1{
     flex-direction: row;
     column-gap: 10px;
     cursor: pointer;
+}
+
+.detalhes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

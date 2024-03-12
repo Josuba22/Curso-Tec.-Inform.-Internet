@@ -33,9 +33,10 @@ async function procurar(){
 
     let divMini = document.getElementById("mini-img")
     for(let i of produtos[indiceProd].img){
-        divMini.innerHTML +=`<img src="${i}" class="miniatura" onclick="trocaImagem('${i}')" width="80" height="80" style="border: 1px solid #c1c1c1; border-radius: 10px;"/>`
+        divMini.innerHTML +=`<img src="${i}" class="miniatura" onclick="trocaImagem('${i}')" width="80" height="80" style="border: 1px solid #c1c1c1; border-radius: 8px;"/>`
     }
 
+    /*let miniCards = document.getElementsByClassName("miniatura")*/ //outra forma de selecionar todos os elementos da lista
     let miniCards = document.querySelectorAll(".miniatura")
     for (let card of miniCards){
         card.addEventListener("mouseover", alteraImg);
@@ -45,6 +46,7 @@ async function procurar(){
 function alteraImg(){
     let frame = document.getElementById("img-frame");
     frame.src = this.getAttribute("src");
+    /*document.getElementById("img-frame").src = this.getAttribute("src");*/ //outra forma de fazer
 }
 
 procurar()
