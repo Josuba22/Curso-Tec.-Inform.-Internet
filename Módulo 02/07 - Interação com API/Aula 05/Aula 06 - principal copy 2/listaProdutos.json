@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.pinimg.com/564x/ae/74/de/ae74def25d73046126f072ee33b9467e.jpg",
+        "nome": "La Casa de Papel (1ª temporada)",
+        "sinopse": "",
+        "duracao": 607,
+        "anoLancamento": 2017
+    },
+
+    {
+        "id": 2,
+        "img": "https://i.pinimg.com/564x/8d/b1/e8/8db1e8ec3aa1af5a5211cf4037f947d2.jpg",
+        "nome": "Vingadores Ultimato",
+        "sinopse": "",
+        "duracao": 182,
+        "anoLancamento": 2019
+    },
+
+    {
+        "id": 3,
+        "img": "https://i.pinimg.com/564x/96/42/33/9642338bc05e332a644973975cb2b714.jpg",
+        "nome": "The Marvels",
+        "sinopse": "",
+        "duracao": 105,
+        "anoLancamento": 2023
+    },
+
+    {
+        "id": 4,
+        "img": "https://i.pinimg.com/564x/42/da/ad/42daad0aaf29a218c11ecb8568064430.jpg",
+        "nome": "Avatar: O caminho da água",
+        "sinopse": "",
+        "duracao": 192,
+        "anoLancamento": 2022
+    },
+
+    {
+        "id": 5,
+        "img": "https://i.pinimg.com/564x/78/fd/f9/78fdf9897caaef47b5b01cc70364e781.jpg",
+        "nome": "Alvin e os esquilos 2",
+        "sinopse": "",
+        "duracao": 88,
+        "anoLancamento": 2009
+    },
+
+    {
+        "id": 6,
+        "img": "https://i.pinimg.com/564x/44/f3/a9/44f3a91fd960949128d369ffa6b7d453.jpg",
+        "nome": "Harry Potter e as relíquias da morte: parte 1",
+        "sinopse": "A Parte 1 começa quando Harry, Rony e Hermione iniciam uma perigosa missão para encontrar e destruir o segredo da imortalidade e destruição…",
+        "duracao": 145,
+        "anoLancamento": 2010
+    }
+]

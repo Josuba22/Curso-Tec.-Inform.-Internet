@@ -1,0 +1,27 @@
+/* Estilize a div .card conforme necessário */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinhamento horizontal */
+    justify-content: center; /* Alinhamento vertical */
+    width: 300px; /* Largura da div */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    max-width: 100%; /* Imagens com tamanho padronizado */
+    height: auto;
+}
+
+.product-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-weight: bold;
+    margin-top: 10px;
+}

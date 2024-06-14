@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "img":"https://lh3.googleusercontent.com/p/AF1QipPTa54VJhJLrnoYiBYi3xqNaAw-RHAFFgwgOR0z=s680-w680-h510-rw",
+        "nome":"Fortaleza - CE",
+        "descricao":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, ullam dolorem soluta eum explicabo rem possimus. Sit optio suscipit, nostrum quibusdam dignissimos quo minus! Illo in magnam repellat hic dicta?"
+    },
+
+    {
+        "id":2,
+        "img":"https://lh3.googleusercontent.com/p/AF1QipPTa54VJhJLrnoYiBYi3xqNaAw-RHAFFgwgOR0z=s680-w680-h510-rw",
+        "nome":"Rio de Janeiro - RJ",
+        "descricao":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, ullam dolorem soluta eum explicabo rem possimus. Sit optio suscipit, nostrum quibusdam dignissimos quo minus! Illo in magnam repellat hic dicta?"
+    },
+
+    {
+        "id":3,
+        "img":"https://lh3.googleusercontent.com/p/AF1QipPTa54VJhJLrnoYiBYi3xqNaAw-RHAFFgwgOR0z=s680-w680-h510-rw",
+        "nome":"Balneário Camboriú - SC",
+        "descricao":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, ullam dolorem soluta eum explicabo rem possimus. Sit optio suscipit, nostrum quibusdam dignissimos quo minus! Illo in magnam repellat hic dicta?"
+    },
+
+    {
+        "id":4,
+        "img":"https://lh3.googleusercontent.com/p/AF1QipPTa54VJhJLrnoYiBYi3xqNaAw-RHAFFgwgOR0z=s680-w680-h510-rw",
+        "nome":"Porto Alegre - RS",
+        "descricao":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, ullam dolorem soluta eum explicabo rem possimus. Sit optio suscipit, nostrum quibusdam dignissimos quo minus! Illo in magnam repellat hic dicta?"
+    },
+
+    {
+        "id":5,
+        "img":"https://lh3.googleusercontent.com/p/AF1QipPTa54VJhJLrnoYiBYi3xqNaAw-RHAFFgwgOR0z=s680-w680-h510-rw",
+        "nome":"Praia do Cassino - RS",
+        "descricao":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, ullam dolorem soluta eum explicabo rem possimus. Sit optio suscipit, nostrum quibusdam dignissimos quo minus! Illo in magnam repellat hic dicta?"
+    },
+
+    {
+        "id":6,
+        "img":"https://lh3.googleusercontent.com/p/AF1QipPTa54VJhJLrnoYiBYi3xqNaAw-RHAFFgwgOR0z=s680-w680-h510-rw",
+        "nome":"João Pessoa - PB",
+        "descricao":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, ullam dolorem soluta eum explicabo rem possimus. Sit optio suscipit, nostrum quibusdam dignissimos quo minus! Illo in magnam repellat hic dicta?"
+    }
+]
